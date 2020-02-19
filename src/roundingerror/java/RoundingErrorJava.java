@@ -21,8 +21,9 @@ public class RoundingErrorJava {
          double root = Math.sqrt(inputNum);
          double finalNum = root * root;
          
-         System.out.println("The squre of the square: " + finalNum);
+         System.out.println("The square of the square: " + finalNum);
          System.out.println("The round-off error: " + (inputNum - finalNum));
     }
     
 }
+    
